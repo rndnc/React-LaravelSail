@@ -1,3 +1,17 @@
+◆環境構築の手順 STEP1　プロジェクトの全ファイルを取得する。 ファイルをクローン、またはダウンロードする。
+
+STEP2　.envファイルの設定 env.example参考
+
+STEP3　Dockerコンテナのビルドと起動 プロジェクトディレクトリで以下のコマンドを実行する。 ./vendor/bin/sail up -d
+
+STEP4　マイグレーションの実行 プロジェクトディレクトリで以下のコマンドを実行する。 ./vendor/bin/sail php artisan migrate
+
+STEP5 Reactのビルドと開発サーバーの起動 プロジェクトディレクトリで以下のコマンドを実行する。 ./vendor/bin/sail npm run dev
+
+※Ubuntuの画面がブラウザに表示される場合は、 Apache2を止めるために、以下のコマンドを実行してください。 sudo systemctl stop apache2
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
