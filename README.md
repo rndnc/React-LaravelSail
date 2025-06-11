@@ -62,9 +62,10 @@ Laravel SailとReactを用いてDocker環境で自己開発しました。
   - React（JavaScript）
   - Vite
 
-◆環境構築の手順 STEP1　プロジェクトの全ファイルを取得する。 ファイルをクローン、またはダウンロードする。
+◆環境構築の手順　　
+STEP1　プロジェクトの全ファイルを取得する。 ファイルをクローン、またはダウンロードする。　
 
-STEP2　.envファイルの設定 env.example参考
+STEP2　.envファイルの設定 env.example参考　
 
 STEP3　Dockerコンテナのビルドと起動 プロジェクトディレクトリで以下のコマンドを実行する。 ./vendor/bin/sail up -d
 
